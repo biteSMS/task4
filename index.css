@@ -4,8 +4,10 @@
     padding: 0;
 }
 body{
-    background: black;
+    background: rgb(213, 231, 255);
     min-width: 1400px;
+    font-family: Helvetica, Tahoma, Arial;
+    text-align: center;
 }
 #nav{
     width: 100%;
@@ -35,10 +37,13 @@ ul li{
     margin: auto 15px;
     line-height: 90px;
 }
+ul li a:hover{
+    color: orange;
+}
 #ul{
     width: 500px;
     height: 30px;
-    margin-left: 100px;
+    margin-left: -200px;
 }
 #tel{
     float: right;
@@ -46,10 +51,180 @@ ul li{
     font-size: 20px;
 }
 #xian1{
-    float:right;/*左漂浮*/
-    width: 1px;
-    height: 25px;/*竖线高度*/
-    background: rgb(92, 90, 90);/*填充颜色*/
+    float:right;
+    width: 2px;
+    height: 25px;
+    background: rgba(0, 0, 0, 0.3);
     margin-right: 120px;
-    margin-top: -38px;
+    margin-top: -40px;
+}
+#live{
+    width: 100px;
+    height: 36px;
+    background: rgb(240, 217, 102);
+    float: right;
+    margin-right: 140px;
+    margin-top: -45px;
+    line-height: 40px;
+    cursor: pointer;  
+}
+#live:hover{
+    background: rgb(230, 184, 4);    
+}
+#xian2{
+    float:right;
+    width: 2px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    margin-right: 290px;
+    margin-top: -90px;
+}
+#container{
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+}
+#banner{
+    width: 100%;
+    background: url('img/banner.png');
+    background-size: cover;
+    height: 658px;
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+}
+#p1{
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 200px;
+}
+#p2{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 20px;
+}
+#share{
+    width: 100px;
+    height: 110px;
+    background: url('img/share.png');
+    margin:30px auto;
+    z-index: 2;
+}
+#search{
+    border: 10px solid rgba(255, 255, 255, 0.4);
+    width: 400px;
+    height: 38px;
+    margin: 0 auto;
+}
+#input{
+    float: left;
+    height: 100%;
+    width: 50%;
+    font-size: 23px;
+    border: none;
+}
+#com{
+    float: left;
+    height: 100%;
+    width: 20%;
+}
+#xiala{
+    height: 100%;
+    width: 100%;
+    background: rgb(247, 228, 63);
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+#check{
+    float: right;
+    height: 100%;
+    width: 29.7%;
+    background: rgb(247, 228, 63);
+    font-size: 13px;
+    line-height: 40px;
+    color: rgb(122, 105, 105);
+    cursor: pointer;
+}
+#more{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 660px;
+    background: black;
+}
+#more1{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: rgb(43, 42, 58);
+}
+#p3{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.buttons{
+    width: 130px;
+    height: 50px;
+    border: 3px solid #fff;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    cursor: pointer;
+}
+.buttons:hover{
+    background: rgb(255, 166, 0);
+}
+#more2{
+    float: right;
+    width: 50%;
+    height: 100%;
+    background: rgb(252, 211, 78);
+}
+#p4{
+    font-size: 100px;
+    margin-top: 90px;
+}
+#p5{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 60px;
+}
+#Features{
+    background: rgb(255, 251, 218);
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 1160px;
+}
+#p6{
+    font-size: 50px;
+    margin-top: -450px;
+}
+#item{
+    width: 80%;
+    height: 200px;
+    margin: 90px auto;
+}
+#support{
+    float: left;
+    margin-left: 20px;
+}
+.Ffont{
+    margin-top: 50px;
+    color: rgb(252, 186, 55);
+    font-size: 25px;
+}
+#cloud{
+    float: left;
+    margin-left:100px; 
+}
+#data{
+    float: left;
+    margin-left:100px; 
+}
+#monitor{
+    float: left;
+    margin-left:100px; 
 }
